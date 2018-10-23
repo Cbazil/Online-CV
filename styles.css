@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "retro1";
+    src: url("fonts/ponde___.ttf");
+}
+@font-face {
+    font-family: "retro2";
+    src: url("fonts/webpixel bitmap_regular.otf");
+}
+#nav_sec {
+    display: grid;    
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-color:  rgb(76, 12, 129);
+    font-family: retro2;
+    grid-template-columns: 4fr 4fr ;
+    position: fixed;
+}
+/* .align_right {
+    
+} */
+li {
+    float: left;
+    list-style-type: none;
+    padding-right:  20px;
+    color: azure;
+    font-size: 30px;
+}
+li:hover {
+
+    font-size: 40px;
+}
