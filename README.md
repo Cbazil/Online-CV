@@ -10,7 +10,7 @@
 ## Change Log
 -
 ---
-## Live Link
+### Live Link
 To view live click on Link: https://cbazil.github.io/Online-CV.html
 ---
 ### Old CV (First Attempt)
