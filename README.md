@@ -12,6 +12,7 @@
 ---
 ### Live Link
 To view live click on Link: https://cbazil.github.io/Online-CV.html
+
 ---
 ### Old CV (First Attempt)
 To iew First CV click on link: https://github.com/Cbazil/First-Online-CV
