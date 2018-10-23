@@ -35,7 +35,7 @@ li:hover {
 
   #nav_emp_sec {
       width: 100%;
-      height: 70px;
+      height: 65px;
   }
 .gif_Box {
     width: 100%;
@@ -80,18 +80,29 @@ h2 {
   }
   .about {
     text-align: center;
-    font-family: sans-serif;
+
     background-color: black;
     width: 100%;
     color: white;
     margin-top: -5px;
     Margin-bottom: 0;
     margin: 0;
-    padding: 0;
+    padding: 10;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: retro2;
 }
 #attach {
-    font-family: retro2;
-    font-size: 30px;
     margin: 0;
     padding: 0;
+}
+#aboutPara {
+    text-align: justify;
+}
+.about_info {
+    padding-left: 30px;
+    padding-right: 30px;
 }
