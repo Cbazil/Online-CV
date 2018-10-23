@@ -8,7 +8,7 @@
 6. Chrome Web Browser 
 ---
 ## Change Log
--
+- Made the Nav bar purple bgcolor, added/imported custom font into the document
 ---
 ### Live Link
 To view live click on Link: https://cbazil.github.io/Online-CV.html
