@@ -9,6 +9,8 @@
 ---
 ## Change Log
 - Made the Nav bar purple bgcolor, added/imported custom font into the document
+- Corrected the GiF image, positioned h1 and h3 and aligned the Fa Fa links just under h2 
+- Attached the giF and About section.
 ---
 ### Live Link
 To view live click on Link: https://cbazil.github.io/Online-CV.html
