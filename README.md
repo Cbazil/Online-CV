@@ -1,4 +1,4 @@
-# Online-CV Remake Second attempt ( 3rd week of Started OCT)
+# Online-CV Remake Second attempt (Started 3rd week of OCT)
 ---
 ## Tools
 1. Html
