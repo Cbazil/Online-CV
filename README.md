@@ -1,4 +1,4 @@
-# Online-CV Remake Second attempt
+# Online-CV Remake Second attempt ( 3rd week of Started OCT)
 ---
 ## Tools
 1. Html
@@ -19,4 +19,6 @@ To view live click on Link: https://cbazil.github.io/Online-CV.html
 
 ---
 ### Old CV (First Attempt)
-To iew First CV click on link: https://github.com/Cbazil/First-Online-CV
+To View First CV click on link: https://github.com/Cbazil/First-Online-CV
+---
+## &copy; All Rights reserved 2018 Cbazil
