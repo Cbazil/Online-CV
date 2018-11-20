@@ -1,17 +1,18 @@
 # Online-CV Remake Second attempt (Started 3rd week of OCT)
 ---
 ## Tools
-1. Html
-2. CSS
-3. RS
-4. VSCODE
-6. Chrome Web Browser 
+    1. Html
+    2. CSS
+    3. RS
+    4. VSCODE
+    6. Chrome Web Browser 
 ---
 ## Change Log
 - Made the Nav bar purple bgcolor, added/imported custom font into the document
 - Corrected the GiF image, positioned h1 and h3 and aligned the Fa Fa links just under h2 
 - Attached the giF and About section.
 - Changed the codepen link & fa fa with freecode camps profile link & fa fa
+- Added Mobile view template for better UX and UI
 
 ---
 ### Live Link
