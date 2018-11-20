@@ -13,6 +13,7 @@
 - Attached the giF and About section.
 - Changed the codepen link & fa fa with freecode camps profile link & fa fa
 - Added Mobile view template for better UX and UI
+- Instead on moving the h1 and h2 tags along with the fa-fa container section, i just placed a div and will move and ajust everything within in.
 
 ---
 ### Live Link
