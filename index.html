@@ -24,7 +24,7 @@
     </nav> -->
     <nav>
 		<div class="toggle">
-			<i class="fa fa-bars" aria-hidden="true"></i>
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
 		</div>
 		<ul>
 			<li><a href="#">About</a></li>
@@ -34,41 +34,49 @@
 			<li><a href="#">Contact</a></li>
 		</ul>
     </nav>
-    
-        <div class="container">
-            <main>
-                <div id="nav_emp_sec"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
 
-                <div class="gif_Box">   
-                    <div id="description_positioning">
-                        <h1 id="about_info">Chad Bosch</h1><br>
-                        <h2>Junior Web Developer</h2>
-                        <div>
-                                <span id="position3">
-                                    <!-- Github account -->
-                                    <a href="https://github.com/Cbazil"><i class="fa fa-github" style="font-size: 69px; padding-left: 20px;"></i></a>
-                                    <!-- LInkedin Profile -->
-                                    <a href="https://www.linkedin.com/in/chad-bosch-b6a3b716b/"><i class="fa fa-linkedin-square" style="font-size: 69px;  padding-left: 20px;"></i></a>
-                                    <!-- Codepen Profle -->
-                                    <a href="https://www.freecodecamp.org/cbazil"><i class="fa fa-free-code-camp" style="font-size: 69px; padding-left: 20px;"></i></a>
-                                </span>
-                        </div>   
-                    </div>               
-                </div>
-                <section class="about">
-                                <!-- Logo and about sections are attached -->
-                                <article class="about_info">
-                                    <h3 id="attach">About Me</h3>
-                                    <p><span id="aboutPara">I'd love to be involved in computer sciences. I love working with computers and software applications.
-                                         I enjoy playing video games and reading Manga aswell as Comics. 
-                                         I am very goal driven and like discovering new interests as well as learning new things. 
-                                         I'm an honest , trustworthy, hardworking, reliable and creative person. 
-                                         I work well underpressure, I'm able to take initative and have strong leadership qualities.<br><br><br></span></p>
-                                </article>
-                            
-                </section>     
-            </main> 
-       
-        </div>
+    <div class="container">
+        <main>
+            <div id="nav_emp_sec"></div>
+
+            <div class="gif_Box">   
+                <div id="description_positioning">
+                    <h1 id="about_info">Chad Bosch</h1>
+                    <h2>Junior Web Developer</h2>
+                    <div>
+                            <span id="position3">
+                                <!-- Github account -->
+                                <a href="https://github.com/Cbazil"><i class="fa fa-github" style="font-size: 69px; padding-left: 20px;"></i></a>
+                                <!-- LInkedin Profile -->
+                                <a href="https://www.linkedin.com/in/chad-bosch-b6a3b716b/"><i class="fa fa-linkedin-square" style="font-size: 69px;  padding-left: 20px;"></i></a>
+                                <!-- Codepen Profle -->
+                                <a href="https://www.freecodecamp.org/cbazil"><i class="fa fa-free-code-camp" style="font-size: 69px; padding-left: 20px;"></i></a>
+                            </span>
+                    </div>   
+                </div>               
+            </div>
+            <section class="about">
+                            <!-- Logo and about sections are attached -->
+                            <article class="about_info">
+                                <h3 id="attach">About Me</h3>
+                                <p><span id="aboutPara">I'd love to be involved in computer sciences. I love working with computers and software applications.
+                                        I enjoy playing video games and reading Manga aswell as Comics. 
+                                        I am very goal driven and like discovering new interests as well as learning new things. 
+                                        I'm an honest , trustworthy, hardworking, reliable and creative person. 
+                                        I work well underpressure, I'm able to take initative and have strong leadership qualities.<br><br><br></span></p>
+                            </article>
+                        
+            </section>     
+        </main> 
+    
+    </div>
 </body>
 </html>
