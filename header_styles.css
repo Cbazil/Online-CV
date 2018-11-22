@@ -52,6 +52,19 @@ ul li a {
     color: #fff;
     text-decoration: none;
 }
+/* Media query on ul postioning */
+@media (min-width: 780px){
+    ul{
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    ul li {
+        padding: 17px;
+    }
+}
 .toggle {
     width: 100%;
     padding: 10px 20px;

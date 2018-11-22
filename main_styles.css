@@ -1,0 +1,23 @@
+main {
+/* margin: 0px 20px; */
+width: 100%;
+background-color: white;
+}
+#content_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.25em;
+    background-color: black;
+    /* width: inherit; */
+
+}
+.grid_item {
+    background-color: rgb(76, 12, 129);
+    border: white solid 1px;
+    color: white;
+    padding: 10px;    
+    margin: 20px;
+}
+.center_align {
+    text-align: center;
+}
