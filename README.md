@@ -16,6 +16,9 @@
 - Instead on moving the h1 and h2 tags along with the fa-fa container section, I just placed a div and will move and ajust everything within in.
 - Change gif image with a cropped version.
 - Made Headings responsive, Mobile drop down effect is active now.
+- Set Grid template and started with my information section.
+- Responsiveness nearly complete. (2018/11/23)
+
 ---
 ### Live Link
 To view live click on Link: https://cbazil.github.io/Online-CV.html
