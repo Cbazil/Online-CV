@@ -20,8 +20,8 @@
 - Responsiveness nearly complete. (2018/11/23)
 ---
 ## Ideas and possible changes | future add ons
- - [] Add descriptive text on images.
- - [] Add animations(Great functionality).
+ - [ ] Add descriptive text on images.
+ - [ ] Add animations(Great functionality).
 ---
 ### Live Link
 To view live click on Link: https://cbazil.github.io/Online-CV.html
