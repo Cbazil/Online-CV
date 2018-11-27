@@ -24,7 +24,7 @@
  - [ ] Add animations(Great functionality).
 ---
 ### Live Link
-To view live click on Link: https://cbazil.github.io/Online-CV.html
+To view live click on Link: https://cbazil.github.io/Online-CV/index.html
 
 ---
 ### Old CV (First Attempt)
