@@ -29,3 +29,24 @@ background-color: white;
 #contact {
     grid-column: 1 / 3;
 }
+
+/* ============ Nested grid 1 info grid  | Start ============== */
+#info_grid {
+    display: grid;
+    grid-template-columns: 25% 33% 42% ;
+    grid-gap: .2em;
+    /* |||||Indicator||||| */
+    Height: 100px;
+}
+.info_grid_item1 {
+    border-right: white solid 1px;
+}
+.info_grid_item2 {
+    border-right: white solid 1px;
+}
+#img_frame {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
