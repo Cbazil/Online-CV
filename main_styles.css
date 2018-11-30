@@ -50,3 +50,22 @@ background-color: white;
     border-radius: 50%;
     background-color: black;
 }
+
+
+ /* Experience grid*/
+ #info_grid2 {
+    display: grid;
+    grid-template-columns: 25% 33% 42% ;
+    grid-gap: .2em;
+    /* |||||Indicator||||| */
+    Height: 100px;
+}
+.info_grid2_item1 {
+    border-right: white solid 1px;
+}
+.info_grid2_item2 {
+    border-right: white solid 1px;
+}
+#exp_grid { 
+    height: 300px; /* Change later */
+}
