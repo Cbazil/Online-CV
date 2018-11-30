@@ -1,17 +1,14 @@
+
+* {
+    box-sizing: border-box;
+}
+
 main {
 margin-left: -0.5%;
 width: 100%;
 background-color: white;
 }
-#content_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.12em;
-    background-color: black;
-    width: 98%;
-    margin: 1%;
-    border-radius: 6px;
-}
+
 .grid_item {
     background-color: rgb(76, 12, 129);
     border: white solid 1px;
@@ -36,7 +33,7 @@ background-color: white;
     grid-template-columns: 25% 33% 42% ;
     grid-gap: .2em;
     /* |||||Indicator||||| */
-    Height: 100px;
+    /* Height: 100px; */
 }
 .info_grid_item1 {
     border-right: white solid 1px;
@@ -44,13 +41,13 @@ background-color: white;
 .info_grid_item2 {
     border-right: white solid 1px;
 }
-#img_frame {
-    width: 150px;
-    height: 150px;
+
+.img_frame {
+    width: 3em;
+    height: 3em; 
     border-radius: 50%;
     background-color: black;
 }
-
 
  /* Experience grid*/
  #info_grid2 {
@@ -68,4 +65,22 @@ background-color: white;
 }
 #exp_grid { 
     height: 300px; /* Change later */
+}
+@media(min-width: 780px){
+    #content_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.12em;
+        background-color: black;
+        width: 98%;
+        margin: 1%;
+        border-radius: 6px;
+    }
+    .img_frame {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        background-color: black;
+    }
+
 }
