@@ -75,6 +75,7 @@ background-color: white;
         width: 98%;
         margin: 1%;
         border-radius: 6px;
+        flex-shrink: 1fr;
     }
     .img_frame {
         width: 10em;
