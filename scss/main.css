@@ -24,17 +24,6 @@
   grid-column: 1 / 3;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-main {
-  margin-left: -0.5%;
-  width: 100%;
-  background-color: white;
-}
-
 /* ============ Nested grid 1 info grid  | Start ============== */
 #info_grid {
   display: -ms-grid;
@@ -83,6 +72,19 @@ main {
 #exp_grid {
   height: 300px;
   /* Change later */
+}
+
+/* ============ Nested grid 1 info grid  | END ============== */
+/* ============ Info grid | END ============== */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  margin-left: -0.5%;
+  width: 100%;
+  background-color: white;
 }
 
 @media (min-width: 780px) {

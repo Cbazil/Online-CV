@@ -1,0 +1,19 @@
+@media(min-width: 780px){
+    #content_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.12em;
+        background-color: black;
+        width: 98%;
+        margin: 1%;
+        border-radius: 6px;
+        flex-shrink: 1fr;
+    }
+    .img_frame {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        background-color: black;
+    }
+
+}
