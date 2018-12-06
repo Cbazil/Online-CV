@@ -1,11 +1,7 @@
-* {
-  box-sizing: border-box; }
+.center_align {
+  text-align: center; }
 
-main {
-  margin-left: -0.5%;
-  width: 100%;
-  background-color: white; }
-
+/* ============ Info grid | Start ============== */
 .grid_item {
   background-color: #4c0c81;
   border: white solid 1px;
@@ -14,14 +10,19 @@ main {
   margin: 20px;
   border-radius: 6px; }
 
-.center_align {
-  text-align: center; }
-
 #education {
   grid-row: 1 / 3; }
 
 #contact {
   grid-column: 1 / 3; }
+
+* {
+  box-sizing: border-box; }
+
+main {
+  margin-left: -0.5%;
+  width: 100%;
+  background-color: white; }
 
 /* ============ Nested grid 1 info grid  | Start ============== */
 #info_grid {
