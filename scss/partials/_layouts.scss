@@ -5,9 +5,9 @@
     margin: 0px;
 
 }
-// ============= Header section | Start =============
+// ============= Header section | Start =============>
 
-// ============= NavBar Section | Start ===============
+// ============= NavBar Section | Start ===============>
 
 #nav_emp_sec { //Empty space that lets gif image move down. 
     width: 100%;
@@ -56,7 +56,7 @@ ul li a {
     display: none;
 }
 
-// ============= NavBar section | End ===============
+// <============= NavBar section | End ===============
 // GIF IMAGE | START
 .gif_Box {
     width: 100%;
@@ -86,7 +86,35 @@ h2 {
 }
 
 // GIF IMAGE | END
+.about {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 0;
+    margin: 0;
+    margin-left: -8px;
+    padding: 10;
+    font-size: 24px;
+}
 
+h3 {
+    font-size: 36px;
+    font-family: retro2;
+}
+#attach {
+    margin: 0;
+    padding: 0;
+}
+#aboutPara {
+    text-align: justify;
+}
+.about_info {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+// <============= Header section | END =============
 /* ============ Info grid | Start ============== */
 
 .grid_item {
