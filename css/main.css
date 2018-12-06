@@ -1,6 +1,57 @@
 .center_align {
   text-align: center; }
 
+@font-face {
+  font-family: "retro1";
+  src: url("../fonts/ponde___.ttf"); }
+@font-face {
+  font-family: "retro2";
+  src: url("../fonts/webpixel bitmap_regular.otf"); }
+.container {
+  width: 100%;
+  margin: 0px; }
+
+nav {
+  width: 100%;
+  background-color: #4c0c81;
+  font-family: retro1;
+  position: fixed;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  z-index: 1;
+  border-bottom: 2px solid white; }
+
+ul {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px auto;
+  text-align: right; }
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px; }
+
+ul li:hover {
+  background: #da0327;
+  font-size: 20px;
+  /* padding-right: 20px; */ }
+
+ul li a {
+  color: #fff;
+  text-decoration: none; }
+
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: #001f44;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none; }
+
 /* ============ Info grid | Start ============== */
 .grid_item {
   background-color: #4c0c81;
@@ -64,74 +115,14 @@ main {
   width: 100%;
   background-color: white; }
 
-@media (min-width: 780px) {
-  #content_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.12em;
-    background-color: black;
-    width: 98%;
-    margin: 1%;
-    border-radius: 6px;
-    flex-shrink: 1fr; }
-
-  .img_frame {
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    background-color: black; } }
-/* ====================||||| Header section merging to impliment sass |||||==================== */
-@font-face {
-  font-family: "retro1";
-  src: url("../fonts/ponde___.ttf"); }
-@font-face {
-  font-family: "retro2";
-  src: url("../fonts/webpixel bitmap_regular.otf"); }
-/* ========
-Responsiveness Nav bar start
-=========*/
 body {
   width: 100%;
   font-family: 'Quicksand', sans-serif; }
 
-.container {
-  width: 100%;
-  margin: 0px; }
-
-nav {
-  width: 100%;
-  background-color: #4c0c81;
-  font-family: retro1;
-  position: fixed;
-  margin-top: -10px;
-  margin-left: -8px;
-  margin-right: -8px;
-  z-index: 1;
-  border-bottom: 2px solid white; }
-
+/* ======== Responsiveness Nav bar | STARTS =========*/
 @media (min-width: 780px) {
   nav {
     height: 80px; } }
-ul {
-  width: 70%;
-  margin: 0 auto;
-  padding: 20px auto;
-  text-align: right; }
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 30px; }
-
-ul li:hover {
-  background: #da0327;
-  font-size: 20px;
-  /* padding-right: 20px; */ }
-
-ul li a {
-  color: #fff;
-  text-decoration: none; }
-
 /* Media query on ul postioning */
 @media (min-width: 780px) {
   ul {
@@ -143,16 +134,6 @@ ul li a {
 
   ul li {
     padding: 17px; } }
-.toggle {
-  width: 100%;
-  padding: 10px 20px;
-  background: #001f44;
-  text-align: right;
-  box-sizing: border-box;
-  color: #fff;
-  font-size: 30px;
-  display: none; }
-
 @media only screen and (max-width: 780px) {
   .toggle {
     display: block; }
@@ -170,6 +151,26 @@ ul li a {
 
   #content_grid {
     display: block; } }
+/* ======== Responsiveness Nav bar | ENDS =========*/
+/* ============ Grid media queries | STARTS ============ */
+@media (min-width: 780px) {
+  #content_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.12em;
+    background-color: black;
+    width: 98%;
+    margin: 1%;
+    border-radius: 6px;
+    flex-shrink: 1fr; }
+
+  .img_frame {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: black; } }
+/* ============ Grid media queries | ENDS ============ */
+/* ====================||||| Header section merging to impliment sass |||||==================== */
 /* ========
 Responsiveness Nav bar end
 ======== */

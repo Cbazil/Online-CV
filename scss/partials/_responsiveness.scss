@@ -1,3 +1,50 @@
+/* ======== Responsiveness Nav bar | STARTS =========*/
+@media (min-width: 780px){
+    nav {
+        height: 80px;
+    }
+}
+
+
+/* Media query on ul postioning */
+@media (min-width: 780px){
+    ul{
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    ul li {
+        padding: 17px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .toggle {
+        display: block;
+    }
+    ul {
+        width: 100%;
+        display: none;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+    }
+    .active {
+        display: block;
+    }
+    #content_grid {
+        display: block;
+    }
+
+}
+
+
+/* ======== Responsiveness Nav bar | ENDS =========*/
+
+/* ============ Grid media queries | STARTS ============ */
 @media(min-width: 780px){
     #content_grid {
         display: grid;
@@ -17,3 +64,5 @@
     }
 
 }
+
+/* ============ Grid media queries | ENDS ============ */
