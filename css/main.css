@@ -7,9 +7,25 @@
 @font-face {
   font-family: "retro2";
   src: url("../fonts/webpixel bitmap_regular.otf"); }
+h1, h2 {
+  color: white; }
+
+.fa {
+  color: #4c0c81; }
+
+.fa:hover {
+  color: white; }
+
+.fa:visited {
+  color: #e91e63; }
+
 .container {
   width: 100%;
   margin: 0px; }
+
+#nav_emp_sec {
+  width: 100%;
+  height: 72px; }
 
 nav {
   width: 100%;
@@ -51,6 +67,32 @@ ul li a {
   color: #fff;
   font-size: 30px;
   display: none; }
+
+.gif_Box {
+  width: 100%;
+  height: 800px;
+  background-image: url("../imgs/logo.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px -8px; }
+
+#description_positioning {
+  width: 48%;
+  height: 300px;
+  /* border: white solid 3px; */
+  margin-top: 480px;
+  text-align: center;
+  position: absolute; }
+
+h1 {
+  font-family: retro1;
+  font-size: 60px; }
+
+h2 {
+  font-family: retro2;
+  font-size: 45px;
+  margin-top: -40px; }
 
 /* ============ Info grid | Start ============== */
 .grid_item {
@@ -152,87 +194,6 @@ body {
   #content_grid {
     display: block; } }
 /* ======== Responsiveness Nav bar | ENDS =========*/
-/* ============ Grid media queries | STARTS ============ */
-@media (min-width: 780px) {
-  #content_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0.12em;
-    background-color: black;
-    width: 98%;
-    margin: 1%;
-    border-radius: 6px;
-    flex-shrink: 1fr; }
-
-  .img_frame {
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    background-color: black; } }
-/* ============ Grid media queries | ENDS ============ */
-/* ====================||||| Header section merging to impliment sass |||||==================== */
-/* ========
-Responsiveness Nav bar end
-======== */
-/* #nav_sec {
-    display: grid;    
-    width: 100%;
-    height: 70px;
-    margin: 0;
-    margin-left: -8px;
-    margin-top: -8px;
-    background-color:  rgb(76, 12, 129);
-    font-family: retro2;
-    grid-template-columns: 4fr 4fr ;
-    position: fixed;
-} */
-/* .toggle {
-    width: 100%;
-    padding: 10px 20px;
-    background: #001f44;
-    text-align: right;
-    box-sizing: border-box;
-    color: #fff;
-    font-size: 30px;
-    display: none;
-
-} */
-/* @media (max-width: 768px){
-    .toggle {
-        display: block;
-    }
-    ul {
-        width: 100px;
-    }
-    ul li {
-        display: block;
-        text-align: center;
-    }
-}
-li {
-    float: left;
-    list-style-type: none;
-    padding-right:  20px;
-    color: azure;
-    font-size: 30px;
-}
-li:hover {
-
-    font-size: 40px;
-} */
-#nav_emp_sec {
-  width: 100%;
-  height: 72px; }
-
-.gif_Box {
-  width: 100%;
-  height: 800px;
-  background-image: url("../imgs/logo.gif");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0px -8px; }
-
 /* Media qurie for tablet and moble view */
 /* On h1 & h2 */
 @media (max-width: 780px) {
@@ -249,26 +210,6 @@ li:hover {
     padding: 0; } }
 /* End of tablet and moble views*/
 /* On h1 & h2 */
-h1, h2 {
-  color: white; }
-
-#description_positioning {
-  width: 48%;
-  height: 300px;
-  /* border: white solid 3px; */
-  margin-top: 480px;
-  text-align: center;
-  position: absolute; }
-
-h1 {
-  font-family: retro1;
-  font-size: 60px; }
-
-h2 {
-  font-family: retro2;
-  font-size: 45px;
-  margin-top: -40px; }
-
 /* ============== MAIN RESPONSIVENESS FOR ALL DEVICES || START =============== */
 @media screen and (max-width: 1024px) {
   #description_positioning {
@@ -365,6 +306,74 @@ h2 {
     padding: 0;
     width: 50%; } }
 /* ============== MAIN RESPONSIVENESS FOR ALL DEVICES || END  =============== */
+/* ============ Grid media queries | STARTS ============ */
+@media (min-width: 780px) {
+  #content_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.12em;
+    background-color: black;
+    width: 98%;
+    margin: 1%;
+    border-radius: 6px;
+    flex-shrink: 1fr; }
+
+  .img_frame {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: black; } }
+/* ============ Grid media queries | ENDS ============ */
+/* ====================||||| Header section merging to impliment sass |||||==================== */
+/* ========
+Responsiveness Nav bar end
+======== */
+/* #nav_sec {
+    display: grid;    
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-color:  rgb(76, 12, 129);
+    font-family: retro2;
+    grid-template-columns: 4fr 4fr ;
+    position: fixed;
+} */
+/* .toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+
+} */
+/* @media (max-width: 768px){
+    .toggle {
+        display: block;
+    }
+    ul {
+        width: 100px;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+    }
+}
+li {
+    float: left;
+    list-style-type: none;
+    padding-right:  20px;
+    color: azure;
+    font-size: 30px;
+}
+li:hover {
+
+    font-size: 40px;
+} */
 /* ====================== Change again ======================== */
 /* h1 {
     font-family: retro1;
@@ -389,15 +398,6 @@ h2 {
     width: 25%;
 } */
 /* ==================== Change every above ======================= */
-.fa {
-  color: #4c0c81; }
-
-.fa:hover {
-  color: white; }
-
-.fa:visited {
-  color: #e91e63; }
-
 .about {
   text-align: center;
   background-color: black;
