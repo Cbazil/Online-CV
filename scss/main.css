@@ -190,10 +190,11 @@ h3 {
 }
 
 .img_frame {
-  width: 3em;
-  height: 3em;
+  width: 100%;
   border-radius: 50%;
   background-color: black;
+  color: black;
+  margin: 0;
 }
 
 /* Experience grid*/
@@ -204,7 +205,7 @@ h3 {
       grid-template-columns: 25% 33% 42%;
   grid-gap: .2em;
   /* |||||Indicator||||| */
-  Height: 100px;
+  Height: 1fr;
 }
 
 .info_grid2_item1 {
@@ -424,12 +425,6 @@ body {
     border-radius: 6px;
     -ms-flex-negative: 1fr;
         flex-shrink: 1fr;
-  }
-  .img_frame {
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    background-color: black;
   }
 }
 
