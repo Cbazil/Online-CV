@@ -8,16 +8,26 @@
   font-family: "retro2";
   src: url("../fonts/webpixel bitmap_regular.otf"); }
 h1, h2 {
-  color: white; }
+  color: #fff; }
 
-.fa {
+h5 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px; }
+
+.links {
   color: #4c0c81; }
 
-.fa:hover {
-  color: white; }
+.links:hover {
+  color: #fff; }
 
-.fa:visited {
+.links:visited {
   color: #e91e63; }
+
+.fa-bars {
+  color: #fff; }
+
+.menu {
+  color: #fff; }
 
 .container {
   width: 100%;
@@ -50,7 +60,7 @@ ul li {
   padding: 30px; }
 
 ul li:hover {
-  background: #da0327;
+  background: #e91e63;
   font-size: 20px;
   /* padding-right: 20px; */ }
 
@@ -98,7 +108,7 @@ h2 {
   text-align: center;
   background-color: black;
   width: 100%;
-  color: white;
+  color: #fff;
   margin-top: -5px;
   margin-bottom: 0;
   margin: 0;
@@ -124,8 +134,8 @@ h3 {
 /* ============ Info grid | Start ============== */
 .grid_item {
   background-color: #4c0c81;
-  border: white solid 1px;
-  color: white;
+  border: #fff solid 1px;
+  color: #fff;
   padding: 10px;
   margin: 20px;
   border-radius: 6px; }
@@ -142,36 +152,55 @@ h3 {
   grid-template-columns: 25% 33% 42%;
   grid-gap: .2em;
   /* |||||Indicator||||| */
-  /* Height: 100px; */ }
+  Height: auto; }
 
 .info_grid_item1 {
-  border-right: white solid 1px; }
+  border-right: #fff solid 1px;
+  padding-right: 10px; }
 
 .info_grid_item2 {
-  border-right: white solid 1px; }
+  border-right: #fff solid 1px;
+  margin-left: 10px; }
+
+.info_grid_item3 {
+  margin-left: 10px; }
 
 .img_frame {
-  width: 3em;
-  height: 3em;
+  width: 100%;
+  height: auto;
   border-radius: 50%;
-  background-color: black; }
+  background-color: black;
+  color: black;
+  margin-right: 0px; }
+
+.img_frame_2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: black;
+  color: black;
+  margin-right: 0px; }
 
 /* Experience grid*/
 #info_grid2 {
   display: grid;
   grid-template-columns: 25% 33% 42%;
   grid-gap: .2em;
-  /* |||||Indicator||||| */
-  Height: 100px; }
+  /* |||||Indicator||||| */ }
 
 .info_grid2_item1 {
-  border-right: white solid 1px; }
+  border-right: #fff solid 1px;
+  padding-right: 10px; }
 
 .info_grid2_item2 {
-  border-right: white solid 1px; }
+  border-right: #fff solid 1px;
+  margin-left: 10px; }
+
+.info_grid2_item3 {
+  margin-left: 10px; }
 
 #exp_grid {
-  height: 300px;
+  height: auto;
   /* Change later */ }
 
 /* ============ Nested grid 1 info grid  | END ============== */
@@ -338,18 +367,11 @@ body {
   #content_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0.12em;
+    grid-gap: 10px;
     background-color: black;
     width: 98%;
     margin: 1%;
-    border-radius: 6px;
-    flex-shrink: 1fr; }
-
-  .img_frame {
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    background-color: black; } }
+    border-radius: 6px; } }
 /* ============ Grid media queries | ENDS ============ */
 
 /*# sourceMappingURL=main.css.map */
