@@ -37,12 +37,12 @@ ul li {
     padding: 30px;
 }
 ul li:hover {
-    background: #da0327;
+    background: $themeRed;
     font-size: 20px;
     /* padding-right: 20px; */
 }
 ul li a {
-    color: #fff;
+    color: $themeWhite;
     text-decoration: none;
 }
 .toggle {
@@ -51,10 +51,11 @@ ul li a {
     background: #001f44;
     text-align: right;
     box-sizing: border-box;
-    color: #fff;
+    color: $themeWhite;
     font-size: 30px;
     display: none;
-}
+
+}   
 
 // <============= NavBar section | End ===============
 // GIF IMAGE | START
@@ -89,7 +90,7 @@ h2 {
     text-align: center;
     background-color: black;
     width: 100%;
-    color: white;
+    color: $themeWhite;
     margin-top: -5px;
     margin-bottom: 0;
     margin: 0;
@@ -117,9 +118,9 @@ h3 {
 /* ============ Info grid | Start ============== */
 
 .grid_item {
-    background-color: rgb(76, 12, 129);
-    border: white solid 1px;
-    color: white;
+    background-color: $themePurple;
+    border: $themeWhite solid 1px;
+    color: $themeWhite;
     padding: 10px;    
     margin: 20px;
     border-radius: 6px;
@@ -140,10 +141,10 @@ h3 {
     /* Height: 100px; */
 }
 .info_grid_item1 {
-    border-right: white solid 1px;
+    border-right: $themeWhite solid 1px;
 }
 .info_grid_item2 {
-    border-right: white solid 1px;
+    border-right: $themeWhite solid 1px;
 }
 
 .img_frame {
@@ -164,10 +165,10 @@ h3 {
     // Height: 1fr;
 }
 .info_grid2_item1 {
-    border-right: white solid 1px;
+    border-right: $themeWhite solid 1px;
 }
 .info_grid2_item2 {
-    border-right: white solid 1px;
+    border-right: $themeWhite solid 1px;
 }
 #exp_grid { 
     height: 300px; /* Change later */

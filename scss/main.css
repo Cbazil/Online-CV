@@ -13,7 +13,12 @@
 }
 
 h1, h2 {
-  color: white;
+  color: #fff;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
 }
 
 .fa {
@@ -21,11 +26,15 @@ h1, h2 {
 }
 
 .fa:hover {
-  color: white;
+  color: #fff;
 }
 
 .fa:visited {
   color: #e91e63;
+}
+
+.fa-bars {
+  color: #fff;
 }
 
 .container {
@@ -64,7 +73,7 @@ ul li {
 }
 
 ul li:hover {
-  background: #da0327;
+  background: #e91e63;
   font-size: 20px;
   /* padding-right: 20px; */
 }
@@ -120,7 +129,7 @@ h2 {
   text-align: center;
   background-color: black;
   width: 100%;
-  color: white;
+  color: #fff;
   margin-top: -5px;
   margin-bottom: 0;
   margin: 0;
@@ -151,8 +160,8 @@ h3 {
 /* ============ Info grid | Start ============== */
 .grid_item {
   background-color: #4c0c81;
-  border: white solid 1px;
-  color: white;
+  border: #fff solid 1px;
+  color: #fff;
   padding: 10px;
   margin: 20px;
   border-radius: 6px;
@@ -182,11 +191,11 @@ h3 {
 }
 
 .info_grid_item1 {
-  border-right: white solid 1px;
+  border-right: #fff solid 1px;
 }
 
 .info_grid_item2 {
-  border-right: white solid 1px;
+  border-right: #fff solid 1px;
 }
 
 .img_frame {
@@ -208,11 +217,11 @@ h3 {
 }
 
 .info_grid2_item1 {
-  border-right: white solid 1px;
+  border-right: #fff solid 1px;
 }
 
 .info_grid2_item2 {
-  border-right: white solid 1px;
+  border-right: #fff solid 1px;
 }
 
 #exp_grid {

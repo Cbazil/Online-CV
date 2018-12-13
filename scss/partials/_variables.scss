@@ -1,3 +1,7 @@
+$themePurple: rgb(76, 12, 129);
+$themeRed: #e91e63;
+$themeWhite: #fff;
+
 .center_align {
     text-align: center;
 }
@@ -12,19 +16,27 @@
 
 
 h1, h2 {
-    color: white;
+    color: $themeWhite;
+}
+h4 {
+    font-family: 'Quicksand', sans-serif ; 
+    font-size: 30px;
 }
 
 // FA FA ICONS COLORS |  Start
 .fa {
-    color:rgb(76, 12, 129);
+    color: $themePurple;
   }
 .fa:hover {
-      color: white;
+      color: $themeWhite;
   }
 .fa:visited {
-    color : #e91e63;
+    color : $themeRed;
   }
+.fa-bars {
+    color: $themeWhite;
+}
+
 // FA FA ICONS COLORS | END
 
 // .h5 {
