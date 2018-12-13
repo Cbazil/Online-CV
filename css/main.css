@@ -29,6 +29,9 @@ h5 {
 .menu {
   color: #fff; }
 
+#animation .fab {
+  padding: 0px 9px; }
+
 .container {
   width: 100%;
   margin: 0px; }
