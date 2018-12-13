@@ -18,28 +18,37 @@ $themeWhite: #fff;
 h1, h2 {
     color: $themeWhite;
 }
-h4 {
+h5 {
     font-family: 'Quicksand', sans-serif ; 
-    font-size: 30px;
+    font-size: 24px;
 }
 
 // FA FA ICONS COLORS |  Start
-.fa {
+.links {
     color: $themePurple;
   }
-.fa:hover {
+.links:hover {
       color: $themeWhite;
   }
-.fa:visited {
+.links:visited {
     color : $themeRed;
   }
 .fa-bars {
     color: $themeWhite;
 }
-
+// #animation {
+//     color: $themeWhite;
+// }
 // FA FA ICONS COLORS | END
 
 // .h5 {
 //     font-family: retro1;
 //     font-size: 2.5em;
 // }
+// .a, .b, .c, .d, .e, .f {
+//     font-size: 60px;
+//     color: $themeWhite;
+// }
+.menu {
+    color: $themeWhite;
+}
