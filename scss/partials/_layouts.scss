@@ -129,6 +129,25 @@ h3 {
 #education {
     grid-row: 1 / 3;
 }
+#portfolio {
+    grid-column: 1 / 3;
+} 
+/* ================= Portfolio grid section START ==================*/
+#port_grid {
+    display: grid;
+    margin: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.port_grid_item {
+    width: 100%;
+    height: 250px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* ================= Portfolio grid section END ==================*/
+
 #contact {
     grid-column: 1 / 3;
 }
