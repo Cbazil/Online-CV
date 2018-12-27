@@ -86,7 +86,7 @@ h2 {
     margin-top: -40px;
 }
 // GIF IMAGE | END
-.about {
+#about {
     text-align: center;
     background-color: black;
     width: 100%;
@@ -146,10 +146,14 @@ h3 {
     background-color: grey;
     border-radius: 5px;
 }
-.port_grid_item > img { 
+.port_grid_item > a {
     width: inherit;
     height: inherit;
-}
+        img { 
+        width: inherit;
+        height: inherit;
+    }
+} 
 
 
 /* ================= Portfolio grid section END ==================*/

@@ -109,7 +109,7 @@ h2 {
   font-size: 45px;
   margin-top: -40px; }
 
-.about {
+#about {
   text-align: center;
   background-color: black;
   width: 100%;
@@ -165,9 +165,12 @@ h3 {
   background-color: grey;
   border-radius: 5px; }
 
-.port_grid_item > img {
+.port_grid_item > a {
   width: inherit;
   height: inherit; }
+  .port_grid_item > a img {
+    width: inherit;
+    height: inherit; }
 
 /* ================= Portfolio grid section END ==================*/
 #contact {
