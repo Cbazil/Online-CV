@@ -219,3 +219,21 @@ h3 {
 /* ============ Nested grid 1 info grid  | END ============== */
 
 /* ============ Info grid | END ============== */
+
+/* ============= Contact section | Start ============= */
+#contact_grid {
+    display: grid;
+    grid-template-columns: 24% 74%;
+}
+.contact_grid_item1 {
+    border-right: solid white 1px;
+    height: inherit;
+    margin-left: 35px;
+}
+#contact_nested_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contact_nested_grid_item {
+    text-align: center;
+}
