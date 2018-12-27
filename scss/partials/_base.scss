@@ -1,13 +1,17 @@
 * {
     box-sizing: border-box;
 }
-
+html {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 main {
-margin-left: -0.5%;
+// margin-left: -0.5%;
 width: 100%;
-background-color: white;
+background-color: black;
 }
 body{
     width: 100%;
     font-family: 'Quicksand', sans-serif;
+    background-color: black;
 }

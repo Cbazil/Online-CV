@@ -97,6 +97,7 @@ h2 {
     margin-left: -8px;
     padding: 10;
     font-size: 24px;
+    border-bottom: 2px solid $themeWhite;
 }
 
 h3 {
@@ -236,4 +237,26 @@ h3 {
 }
 .contact_nested_grid_item {
     text-align: center;
+}
+footer {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: $themePurple;
+    color: $themeWhite;
+    padding:  0px 20px;
+    position: relative;
+    bottom: bottom;
+}
+#footer_flex {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    width: inherit;
+}
+
+.footer_flex_item1, .footer_flex_item2 {
+    margin: 0px;
+    padding: 0px;
 }
