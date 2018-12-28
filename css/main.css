@@ -182,18 +182,20 @@ h3 {
   grid-template-columns: 25% 33% 42%;
   grid-gap: .2em;
   /* |||||Indicator||||| */
-  Height: auto; }
+  height: auto; }
 
 .info_grid_item1 {
   border-right: #fff solid 1px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  padding-top: 10px; }
 
 .info_grid_item2 {
   border-right: #fff solid 1px;
   margin-left: 10px; }
 
 .info_grid_item3 {
-  margin-left: 10px; }
+  margin-left: 10px;
+  padding-top: 5px; }
 
 .img_frame {
   width: 100%;
@@ -248,10 +250,10 @@ footer {
   margin-top: 40px;
   margin-bottom: 0px;
   width: 100%;
-  height: 70px;
+  height: auto;
   background-color: #4c0c81;
   color: #fff;
-  padding: 0px 20px;
+  padding: 5px 20px;
   position: relative;
   bottom: bottom; }
 
@@ -446,5 +448,54 @@ body {
     margin: 1%;
     border-radius: 6px; } }
 /* ============ Grid media queries | ENDS ============ */
+/* ============= Info section Responsiveness | Start =========== */
+@media (max-width: 480px) {
+  #info_grid {
+    font-size: 14px; } }
+/* ============= Info section Responsiveness | Start =========== */
+/* ========== Portfolio section Media Queries | START ============= */
+@media (max-width: 780px) {
+  #port_grid {
+    display: grid;
+    grid-template-columns: 1fr; } }
+@media (max-width: 480px) {
+  .port_grid_item {
+    height: 160px; }
+
+  .info_grid_item2 {
+    margin-left: 2px;
+    padding-bottom: 18px; } }
+/* ========== Portfolio section Media Queries | End ============= */
+/* ========== Contact grid section Media Q | START =========== */
+@media (max-width: 780px) {
+  #contact_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center; }
+
+  .contact_grid_item1 {
+    border-bottom: solid white 1px;
+    border-right: none;
+    margin: 0px;
+    width: 100%; }
+
+  #contact_nested_grid {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center; } }
+/* ========== Contact grid section Media Q | END =========== */
+/* ========== Footer Section Responsiveness | START ========== */
+@media (max-width: 780px) {
+  #footer_flex {
+    display: flex;
+    flex-wrap: wrap; }
+    #footer_flex h5 {
+      text-align: center; }
+
+  .footer_flex_item1, .footer_flex_item2 {
+    text-align: center;
+    display: inline-block;
+    width: 100%; } }
+/* ========== Footer Section Responsiveness | END ========== */
 
 /*# sourceMappingURL=main.css.map */
