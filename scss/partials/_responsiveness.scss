@@ -135,6 +135,9 @@
         padding: 0;
         width: 50%;
     }
+    #about {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -156,6 +159,9 @@
         margin-top: 220px;
         padding: 0;
         width: 50%;
+    }
+    #about {
+        font-size: 18px;
     }
 
 }
@@ -181,7 +187,9 @@
         padding: 0;
         width: 50%;
     }
-
+    #about {
+        font-size: 14px;
+    }
 }
 /* ============== MAIN RESPONSIVENESS FOR ALL DEVICES || END  =============== */
 // <========= DESCRIPTION POSITIONING | END ==========
