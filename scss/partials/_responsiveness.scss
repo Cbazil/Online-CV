@@ -218,8 +218,17 @@
 /* ============ Grid media queries | ENDS ============ */
 /* ============= Info section Responsiveness | Start =========== */
 @media(max-width: 480px) {   
-    #info_grid {
+    #info_grid, #info_grid2 {
+        display: grid;
+        grid-template-columns: 1fr;
         font-size: 14px;
+        .info_grid_item1, .info_grid2_item1 {
+            text-align: center;
+            border-right: none;
+        }
+        .img_frame {
+            width: 40%;
+        }
     }
 }
 /* ============= Info section Responsiveness | Start =========== */

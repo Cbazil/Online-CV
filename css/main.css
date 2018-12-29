@@ -34,6 +34,18 @@ h5 {
 #animation .fab {
   padding: 0px 9px; }
 
+table {
+  width: 100%; }
+  table td {
+    border-collapse: collapse;
+    margin: 0; }
+  table .col1 {
+    width: 35%;
+    padding-left: 10px; }
+  table .col2 {
+    width: 65%;
+    padding-left: 10px; }
+
 .container {
   width: 100%;
   margin: 0px; }
@@ -179,7 +191,7 @@ h3 {
 /* ============ Nested grid 1 info grid  | Start ============== */
 #info_grid {
   display: grid;
-  grid-template-columns: 25% 33% 42%;
+  grid-template-columns: 25% 75%;
   grid-gap: .2em;
   /* |||||Indicator||||| */
   height: auto; }
@@ -190,12 +202,7 @@ h3 {
   padding-top: 10px; }
 
 .info_grid_item2 {
-  border-right: #fff solid 1px;
   margin-left: 10px; }
-
-.info_grid_item3 {
-  margin-left: 10px;
-  padding-top: 5px; }
 
 .img_frame {
   width: 100%;
@@ -208,7 +215,7 @@ h3 {
 /* Experience grid*/
 #info_grid2 {
   display: grid;
-  grid-template-columns: 25% 33% 42%;
+  grid-template-columns: 25% 75%;
   grid-gap: .2em;
   /* |||||Indicator||||| */ }
 
@@ -217,10 +224,6 @@ h3 {
   padding-right: 10px; }
 
 .info_grid2_item2 {
-  border-right: #fff solid 1px;
-  margin-left: 10px; }
-
-.info_grid2_item3 {
   margin-left: 10px; }
 
 #exp_grid {
@@ -450,8 +453,15 @@ body {
 /* ============ Grid media queries | ENDS ============ */
 /* ============= Info section Responsiveness | Start =========== */
 @media (max-width: 480px) {
-  #info_grid {
-    font-size: 14px; } }
+  #info_grid, #info_grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 14px; }
+    #info_grid .info_grid_item1, #info_grid .info_grid2_item1, #info_grid2 .info_grid_item1, #info_grid2 .info_grid2_item1 {
+      text-align: center;
+      border-right: none; }
+    #info_grid .img_frame, #info_grid2 .img_frame {
+      width: 40%; } }
 /* ============= Info section Responsiveness | Start =========== */
 /* ========== Portfolio section Media Queries | START ============= */
 @media (max-width: 780px) {

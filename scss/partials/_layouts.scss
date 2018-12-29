@@ -164,7 +164,7 @@ h3 {
 /* ============ Nested grid 1 info grid  | Start ============== */
 #info_grid {
     display: grid;
-    grid-template-columns: 25% 33% 42% ;
+    grid-template-columns: 25% 75% ;
     grid-gap: .2em;
     /* |||||Indicator||||| */
     height: auto; 
@@ -176,13 +176,13 @@ h3 {
     padding-top: 10px;
 }
 .info_grid_item2 {
-    border-right: $themeWhite solid 1px;
+    // border-right: $themeWhite solid 1px;
     margin-left: 10px;
 }
-.info_grid_item3 {
-    margin-left: 10px;
-    padding-top: 5px;
-}
+// .info_grid_item3 {
+//     margin-left: 10px;
+//     padding-top: 5px;
+// }
 
 .img_frame {
     width: 100%;
@@ -204,7 +204,7 @@ h3 {
  /* Experience grid*/
  #info_grid2 {
     display: grid;
-    grid-template-columns: 25% 33% 42% ;
+    grid-template-columns: 25% 75%;
     grid-gap: .2em;
     /* |||||Indicator||||| */
     // Height: 1fr;
@@ -214,12 +214,10 @@ h3 {
     padding-right: 10px;
 }
 .info_grid2_item2 {
-    border-right: $themeWhite solid 1px;
+    // border-right: $themeWhite solid 1px;
     margin-left: 10px;
 }
-.info_grid2_item3 {
-    margin-left: 10px;
-}
+
 #exp_grid { 
     height: auto; /* Change later */
 }
