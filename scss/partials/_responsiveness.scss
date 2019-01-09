@@ -138,6 +138,9 @@
     #about {
         font-size: 20px;
     }
+    .animation_box > h5 {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -161,6 +164,9 @@
         width: 50%;
     }
     #about {
+        font-size: 18px;
+    }
+    .animation_box > h5 {
         font-size: 18px;
     }
 
@@ -189,6 +195,15 @@
     }
     #about {
         font-size: 14px;
+    }
+    #animation {
+        height: 150px;
+    }
+    .animation_container {
+        height: 130px;
+    }
+    .animation_box > h5 {
+        font-size: 12px;
     }
 }
 /* ============== MAIN RESPONSIVENESS FOR ALL DEVICES || END  =============== */
