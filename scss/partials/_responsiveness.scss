@@ -41,10 +41,7 @@
     // .fa {
     //     color: $themeWhite;
     // }
-
 }
-
-
 /* ======== Responsiveness Nav bar | ENDS =========*/
 // HEADER | START
 
@@ -65,7 +62,11 @@
         padding: 0;
     }
 }
-
+@media only screen and (min-width: 780px){
+    #social_accounts {
+        display: none;
+    }
+}
 /* End of tablet and moble views*/
 /* On h1 & h2 */
 // HEADER | END 
@@ -229,8 +230,15 @@
     // }
 
 }
+// ==== Skills sec ====>
+@media(min-width: 480px){
+    .animation_box {    
+    margin: .55%;
+    }
+}
 
 /* ============ Grid media queries | ENDS ============ */
+
 /* ============= Info section Responsiveness | Start =========== */
 @media(max-width: 480px) {   
     #info_grid, #info_grid2 {

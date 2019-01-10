@@ -149,6 +149,11 @@ h3 {
   padding-left: 30px;
   padding-right: 30px; }
 
+#social_accounts {
+  display: flex;
+  justify-content: center;
+  margin: 15px 30px; }
+
 /* ============ Info grid | Start ============== */
 .grid_item {
   background-color: #4c0c81;
@@ -245,7 +250,7 @@ h3 {
 
 .animation_content {
   height: 270px;
-  width: 300%;
+  width: 200%;
   position: relative;
   animation: broadcast 7s linear 0s infinite normal;
   left: 0%; }
@@ -257,16 +262,14 @@ h3 {
 .animation_box {
   display: inline-block;
   height: auto;
-  width: 7%;
-  margin: .5%; }
+  width: 6.8%;
+  margin: .4%;
+  text-align: center; }
   .animation_box h5 {
     color: black;
     font-weight: bold;
-    font-size: 28px; }
-
-.animation_box > h5 {
-  text-align: center;
-  width: inherit; }
+    font-size: 28px;
+    margin: 0; }
 
 .skill_icons {
   text-align: center;
@@ -291,7 +294,8 @@ h3 {
 .contact_grid_item1 {
   border-right: solid white 1px;
   height: inherit;
-  margin-left: 35px; }
+  margin-left: 35px;
+  padding-top: 25px; }
 
 #contact_nested_grid {
   display: grid;
@@ -384,6 +388,9 @@ body {
   ul {
     text-align: center;
     padding: 0; } }
+@media only screen and (min-width: 780px) {
+  #social_accounts {
+    display: none; } }
 /* End of tablet and moble views*/
 /* On h1 & h2 */
 /* ============== MAIN RESPONSIVENESS FOR ALL DEVICES || START =============== */
@@ -516,6 +523,9 @@ body {
     width: 98%;
     margin: 1%;
     border-radius: 6px; } }
+@media (min-width: 480px) {
+  .animation_box {
+    margin: .55%; } }
 /* ============ Grid media queries | ENDS ============ */
 /* ============= Info section Responsiveness | Start =========== */
 @media (max-width: 480px) {
