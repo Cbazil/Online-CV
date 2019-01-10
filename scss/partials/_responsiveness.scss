@@ -269,13 +269,22 @@
             display: grid;
             grid-template-columns: 1fr;
             text-align: center;
+            margin: 0;
+            width: 100%;
         }
         .contact_grid_item1 {
             border-bottom: solid white 1px;
             border-right: none;
             margin: 0px;
-            width: 100%;
+            width: inherit;
         } 
+        .contact_grid_item2 {
+            width: inherit;
+            margin: inherit;
+            h5 {
+                margin: inherit;
+            }
+        }
          #contact_nested_grid {
             display: grid;
             grid-template-columns: 100%;
