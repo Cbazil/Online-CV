@@ -38,9 +38,6 @@
     #content_grid {
         display: block;
     }
-    // .fa {
-    //     color: $themeWhite;
-    // }
 }
 /* ======== Responsiveness Nav bar | ENDS =========*/
 // HEADER | START
@@ -128,7 +125,6 @@
     h2 {
         font-family: retro2;
         font-size: 30px;
-        /* margin-top: -40px; */
     }
     #description_positioning {
         height: 220px;
@@ -220,15 +216,7 @@
         width: 98%;
         margin: 1%;
         border-radius: 6px;
-        // flex-shrink: 1fr;
     }
-    // .img_frame {
-    //     width: 1fr;
-    //     height: 10em;
-    //     border-radius: 50%;
-    //     background-color: black;
-    // }
-
 }
 // ==== Skills sec ====>
 @media(min-width: 480px){
